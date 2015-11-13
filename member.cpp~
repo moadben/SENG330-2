@@ -13,7 +13,7 @@ member::~member(){
 
 }
 
-string member::get_name() const{
+string member::getName() const{
 	return member_name;
 }
 
