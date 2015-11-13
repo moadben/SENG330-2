@@ -1,0 +1,9 @@
+class Bracelet {
+	int x;
+	public:
+		Bracelet() {}
+};
+
+int main(){
+
+}
