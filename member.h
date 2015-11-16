@@ -18,9 +18,16 @@ class member {
 		//Accessor Functions
 		char* get_name() const;
 		int get_contract() const;
+		
+		//Mutator Functions
+		void set_name(char*);
+		void renew_contract(int);
+		
 	private:
 		char* member_name;
 		int contract_length;
+		
+		
 
 };
 
