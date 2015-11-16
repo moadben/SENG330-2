@@ -1,12 +1,11 @@
 #include <iostream>
 #include <vector>
 
-#ifndef BRACELET_H
-#define BRACELET_H
-
 #include "member.h"
 #include "machine.h"
 
+#ifndef BRACELET_H
+#define BRACELET_H
 
 class bracelet : public member, public machine{
 	public:

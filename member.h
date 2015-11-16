@@ -24,6 +24,7 @@ class member {
 		void renew_contract(int);
 		
 	private:
+		//Variables
 		char* member_name;
 		int contract_length;
 		

@@ -1,4 +1,6 @@
 #include "bracelet.h"
+#include "member.h"
+#include "machine.h"
 #include <iostream>
 #include <vector>
 

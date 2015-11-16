@@ -21,5 +21,5 @@ void machine::set_name(char* new_name){
 }
 
 int main(){
-
+	
 }
