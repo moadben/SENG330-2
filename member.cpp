@@ -13,12 +13,13 @@ member::~member(){
 
 }
 
-string member::get_name() const{
+char* member::get_name() const{
 	return member_name;
 }
 
 int member::get_contract() const{
 	return contract_length;
+}
 
 int main(){
 }
