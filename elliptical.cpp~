@@ -3,7 +3,7 @@
 #include <iostream>
 #include <vector>
 
-elliptical::elliptical(char* mach_name){
+elliptical::elliptical(std::string mach_name){
 	machine_name = mach_name;
 	char type[] = "ellpitical";
 	machine_type = type;
@@ -15,6 +15,6 @@ int elliptical::minutes_used(){
 }
 
 
-elliptical* clone(){
+elliptical* elliptical::clone(){
 	return new elliptical(machine_name);
 }

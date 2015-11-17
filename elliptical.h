@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 #include <vector>
 
 #ifndef ELLIPTICAL_H
@@ -8,7 +9,7 @@
 
 class elliptical : public machine{
 	public:
-		elliptical(char*);
+		elliptical(std::string);
 		int minutes_used();
 		elliptical* clone();
 	private:

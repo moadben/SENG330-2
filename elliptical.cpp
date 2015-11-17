@@ -3,9 +3,9 @@
 #include <iostream>
 #include <vector>
 
-elliptical::elliptical(char* mach_name){
+elliptical::elliptical(std::string mach_name){
 	machine_name = mach_name;
-	char type[] = "ellpitical";
+	std::string type = "ellpitical";
 	machine_type = type;
 }
 

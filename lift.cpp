@@ -3,9 +3,9 @@
 #include <iostream>
 #include <vector>
 
-lift::lift(char* mach_name){
+lift::lift(std::string mach_name){
 	machine_name = mach_name;
-	char type[] = "lift";
+	std::string type = "lift";
 	machine_type = type;
 }
 

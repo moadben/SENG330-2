@@ -1,0 +1,10 @@
+all: main
+
+main: main.cpp Machine.pb.h Machine.pb.cc
+	g++ main.cpp Machine.pb.cc -o assign2 -l protobuf
+
+
+fitplanet.pb.h:  fitplanet.proto
+	protoc --cpp_out=. fitplanet.proto
+
+fitplanet.pb.cc: fitplanet.proto

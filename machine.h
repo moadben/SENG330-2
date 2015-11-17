@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 #ifndef MACHINE_H
 #define MACHINE_H
@@ -9,20 +10,23 @@ class machine{
 		machine();
 		
 		//Overload Constructor
-		machine(char*);
+		machine(std::string);
 		
 		//Destructor
 		~machine();
 		
 		//Accessor functions
-		char* get_name() const;
+		std::string get_name() const;
 		
 		//Mutator functions
-		void set_name(char*);
+		void set_name(std::string);
+		
+		//Prototype function
+		machine* clone();
 	protected:
 		//Variables
-		char* machine_name;
-		char* machine_type;
+		std::string machine_name;
+		std::string machine_type;
 		
 };
 

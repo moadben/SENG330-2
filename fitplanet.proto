@@ -1,3 +1,12 @@
-package assign2
+syntax="proto2";
 
+package machines;
 
+message Machine {
+	required string machine_name = 1;
+	required string machine_type = 2;
+}
+
+message Machines {
+	repeated Machine machine = 1;
+}
