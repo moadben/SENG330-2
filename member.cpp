@@ -30,6 +30,3 @@ void member::renew_contract(int cont) {
 	contract_length = contract_length+cont;
 }
 
-int main(){
-	
-}

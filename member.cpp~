@@ -31,5 +31,5 @@ void member::renew_contract(int cont) {
 }
 
 int main(){
-	print("Free Libya bro");
+	
 }

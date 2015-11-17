@@ -19,9 +19,10 @@ class machine{
 		
 		//Mutator functions
 		void set_name(char*);
-	private:
+	protected:
 		//Variables
 		char* machine_name;
+		char* machine_type;
 		
 };
 

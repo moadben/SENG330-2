@@ -18,10 +18,12 @@ class machine{
 		char* get_name() const;
 		
 		//Mutator functions
-		void set_name(char* new_name);
+		void set_name(char*);
 	private:
 		//Variables
 		char* machine_name;
+	protected:
+		char* machine_type;
 		
 };
 

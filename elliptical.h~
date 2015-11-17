@@ -1,0 +1,19 @@
+#include <iostream>
+#include <vector>
+
+#ifndef ELLIPTICAL_H
+#define ELLIPTICAL_H
+
+#include "machine.h"
+
+class elliptical : public machine{
+	public:
+		elliptical(char*);
+		int minutes_used();
+		void set_type();
+		elliptical* clone();
+	private:
+		
+};
+
+#endif

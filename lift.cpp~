@@ -1,0 +1,24 @@
+#include "lift.h"
+#include "machine.h"
+#include <iostream>
+#include <vector>
+
+lift::lift(char* mach_name){
+	machine_name = mach_name;
+	char type[] = "lift";
+	machine_type = type;
+}
+
+int lift::repetitions(){
+	int reps = 10;
+	return reps;
+}
+
+int lift::weight_lifted(){
+	int weight = 100;
+	return weight;
+}
+
+lift* lift::clone(){
+	return new lift(machine);
+}

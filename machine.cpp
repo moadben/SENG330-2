@@ -20,6 +20,3 @@ void machine::set_name(char* new_name){
 	machine_name = new_name;
 }
 
-int main(){
-	
-}

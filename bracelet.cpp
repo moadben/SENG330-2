@@ -1,4 +1,6 @@
 #include "bracelet.h"
+#include "member.h"
+#include "machine.h"
 #include <iostream>
 #include <vector>
 
@@ -34,6 +36,3 @@ void bracelet::add_machine(machine new_machine){
 	used_machines.push_back(new_machine);
 }
 
-int main(){
-
-}
