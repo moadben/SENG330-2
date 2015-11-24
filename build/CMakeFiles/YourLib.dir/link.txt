@@ -1,0 +1,2 @@
+/usr/bin/ar cr libYourLib.a  CMakeFiles/YourLib.dir/lift.cpp.o CMakeFiles/YourLib.dir/machine.cpp.o CMakeFiles/YourLib.dir/fitplanet.cpp.o CMakeFiles/YourLib.dir/bracelet.cpp.o CMakeFiles/YourLib.dir/member.cpp.o CMakeFiles/YourLib.dir/elliptical.cpp.o
+/usr/bin/ranlib libYourLib.a

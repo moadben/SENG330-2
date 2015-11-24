@@ -1,0 +1,4 @@
+To run the program on Linux, please:
+	1. Open a terminal and make your way to the SENG330-2 folder (You could use the CD comman)
+	2. Go into the build folder
+	3. run ./fitplanet

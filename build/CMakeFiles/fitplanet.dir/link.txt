@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/fitplanet.dir/fitplanet.cpp.o CMakeFiles/fitplanet.dir/fitplanet.pb.cc.o  -o fitplanet -rdynamic /usr/local/lib/libprotobuf.so -lpthread libYourLib.a -Wl,-rpath,/usr/local/lib 

@@ -1,0 +1,2 @@
+/home/moad/Desktop/SENG330-2/build/CMakeFiles/YourLib.dir
+/home/moad/Desktop/SENG330-2/build/CMakeFiles/fitplanet.dir

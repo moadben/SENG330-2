@@ -1,0 +1,8 @@
+#Specify the version being used aswell as the language
+cmake_minimum_required(VERSION 2.6)
+#Name your project here
+project(fitplanet)
+
+file( GLOB LIB_SOURCES lib/*.cpp )
+file( GLOB LIB_HEADERS lib/*.h )
+add_library( YourLib ${LIB_SOURCES} ${LIB_HEADERS} )
